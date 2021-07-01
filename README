@@ -36,6 +36,10 @@ Chaos Mesh: Open source cloud-native Chaos Engineering platform that orchestrate
 Istio: It is developed by Google and lyft. It is best known as a Kubernetes service mesh and it natively supports fault injection.
 
 
-Gremlin: Turn failure into resilience. Gremlin provides you with the framework to safely, securely, and simply simulate real outages with an ever-growing library of attacks. Using Chaos Engineering to improve system resilience, Gremlin’s “Failure as a Service” makes it easy to find weaknesses in your system before they cause problems for your customers.
+Gremlin: 
+
+Build resilience to failure, maintain customer trust, and improve incident response with Gremlin’s Chaos Engineering platform.
+Avoid costly downtime. 
+Minimize your risk of system failure by proactively testing for weaknesses before they become outages.
 
 
