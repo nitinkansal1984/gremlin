@@ -1,1 +1,41 @@
+What is chaos engineering?
+
+Chaos engineering can be used to achieve resilience against:
+
+Infrastructure failures
+Network failures
+Application failures
+
+
+There are suits of tools available to test the reliability, security, or resiliency of the infrastructure:
+
+1. Chaos Monkey:
+
+Chaos Monkey is a tool invented in 2011 by Netflix to test the resilience of its IT infrastructure. 
+It works by disabling computers in Netflix's production network to test how remaining systems respond to the outage.
+The name "Chaos Monkey" is explained in the book Chaos Monkeys by Antonio Garcia Martinez. ""Imagine a monkey entering a 'data center'. The monkey randomly rips cables, destroys devices and returns everything that passes by the hand. The challenge for IT managers is to design the information system they are responsible for so that it can work despite these monkeys"
+
+2. LitmusChaos: LitmusChaos is part of the CNCF Projects. Developed by MayaData.
+
+a) It is a toolset to do cloud-native chaos engineering. 
+b) It provides tools to orchestrate chaos on Kubernetes to help SREs find weaknesses in their deployments. 
+c) Enables you to run chaos experiments initially in the staging environment and eventually in production to find bugs, vulnerabilities. 
+d) Fixing the weaknesses leads to increased resilience of the system.
+
+
+Chaos Kong: Chaos Kong simulates a systems response and recovery when entire region does down. However this is rare use case.
+
+Chaos Gorilla: Simulates when AWS AZ goes down, then how system behaves.
+
+Latency Monkey: Add delayes and outages to the network
+
+Doctor Monkey: Performs health checks, by monitoring performance metrics such as CPU load to detect unhealthy instances and eventual fixing or retirement of the instances.
+
+Chaos Mesh: Open source cloud-native Chaos Engineering platform that orchestrates chaos experiments in Kubernetes environments. It supports failure simulation, including Pod failures, container failures, network failures, file system failures, system time failures, and kernel failures.
+
+Istio: It is developed by Google and lyft. It is best known as a Kubernetes service mesh and it natively supports fault injection.
+
+
+Gremlin: Turn failure into resilience. Gremlin provides you with the framework to safely, securely, and simply simulate real outages with an ever-growing library of attacks. Using Chaos Engineering to improve system resilience, Gremlin’s “Failure as a Service” makes it easy to find weaknesses in your system before they cause problems for your customers.
+
 
